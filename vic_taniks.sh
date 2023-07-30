@@ -38,9 +38,9 @@ cd /tmp
 
 echo -e "正在下载所需文件"
 
-curl -L -O https://github.com/vic-sys/Gboard-wubi/releases/download/ftp/coreboot_edk2-taniks-mrchromebox_20230721.rom
+curl -L -O https://github.com/vic-sys/Gboard-wubi/releases/download/ftp/vic_taniks.bin
 
-flashrom -p raiden_debug_spi:target=AP -w coreboot_edk2-taniks-mrchromebox_20230721.rom
+flashrom -p raiden_debug_spi:target=AP -w vic_taniks.bin
 
 
 exit
